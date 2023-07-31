@@ -8,7 +8,10 @@ describe('utils', () => {
 		link: 'link',
 		height: 1,
 		width: 1,
-		type: 'type'
+		type: 'type',
+		ups: 1,
+		downs: 1,
+		score: 1
 	};
 
 	const testAlbum = {
@@ -18,7 +21,10 @@ describe('utils', () => {
 		link: 'link',
 		is_album: true,
 		images: [testImage],
-		cover: 'cover'
+		cover: 'cover',
+		ups: 1,
+		downs: 1,
+		score: 1
 	};
 
 	const testGalleryImage = {
@@ -29,7 +35,10 @@ describe('utils', () => {
 		is_album: false,
 		height: 1,
 		width: 1,
-		type: 'type'
+		type: 'type',
+		ups: 1,
+		downs: 1,
+		score: 1
 	};
 
 	test('isAlbum true', () => {

@@ -14,7 +14,10 @@ export function mapResponseItem(item: GalleryImage | GalleryAlbum): GalleryImage
 		title: item.title,
 		description: item.description,
 		link: item.link,
-		is_album: item.is_album
+		is_album: item.is_album,
+		ups: item.ups,
+		downs: item.downs,
+		score: item.score
 	};
 
 	if (isAlbum(item)) {

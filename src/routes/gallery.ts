@@ -12,7 +12,7 @@ export const handler = async (
 ) => {
 	const data = await galleryQuery(req.params, req.query);
 	const parsedResponse = data.map(item => mapResponseItem(item));
-	res.json(parsedResponse);
+	res.json(data);
 };
 
 router.get('/:section/:f2?/:f3?/:f4?', handler);

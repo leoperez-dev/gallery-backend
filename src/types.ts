@@ -7,6 +7,9 @@ export interface BaseItem {
 
 export interface GalleryItem extends BaseItem {
 	is_album: boolean;
+	ups: number;
+	downs: number;
+	score: number;
 }
 
 export interface Image extends BaseItem {
