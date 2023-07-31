@@ -11,7 +11,7 @@ module.exports = {
 	},
 	plugins: ['@typescript-eslint'],
 	root: true,
-	ignorePatterns: ['**/*.test.ts'],
+	ignorePatterns: ['**/*.test.ts', '.eslintrc.cjs'],
 	rules: {
 		'@typescript-eslint/no-misused-promises': [
 			'error',

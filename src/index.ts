@@ -8,7 +8,7 @@ const server = express();
 
 server.use(cors());
 
-server.use('/gallery', routes.gallery);
+server.use('/gallery/', routes.gallery);
 
 server.listen(port, () => {
 	console.log('App listening on port ' + port);

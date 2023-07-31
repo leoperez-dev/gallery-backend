@@ -9,9 +9,6 @@ describe('utils', () => {
 		height: 1,
 		width: 1,
 		type: 'type',
-		ups: 1,
-		downs: 1,
-		score: 1
 	};
 
 	const testAlbum = {
