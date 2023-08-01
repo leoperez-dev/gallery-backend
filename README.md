@@ -4,6 +4,8 @@ Simple backend using NodeJS/Typescript/Express
 
 [Visit deployed site](https://gallery-frontend.onrender.com/)
 
+## Requirements
+- node version 18+
 ## Instructions
 - clone repository
 - run `npm run install `

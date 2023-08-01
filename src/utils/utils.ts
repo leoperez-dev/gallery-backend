@@ -8,6 +8,7 @@ export function mapAlbumImage({ id, title, description, link, height, width, typ
 	return ({ id, title, description, link, height, width, type })
 }
 
+//filter unnecesary data to minimize response size
 export function mapResponseItem(item: GalleryImage | GalleryAlbum): GalleryImage | GalleryAlbum {
 	const commonFields = {
 		id: item.id,

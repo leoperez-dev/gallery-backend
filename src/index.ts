@@ -10,6 +10,8 @@ server.use(cors());
 
 server.use('/gallery/', routes.gallery);
 
+server.use('/api-docs/', routes.apiDocs);
+
 server.listen(port, () => {
 	console.log('App listening on port ' + port);
 });
