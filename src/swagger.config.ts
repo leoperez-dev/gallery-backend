@@ -3,7 +3,7 @@ import dotEnv from 'dotenv';
 
 dotEnv.config();
 
-export const options: swaggerJsDoc.Options = {
+const options: swaggerJsDoc.Options = {
 	definition: {
 		openapi: "3.1.0",
 		info: {
@@ -23,9 +23,10 @@ export const options: swaggerJsDoc.Options = {
 		},
 		servers: [
 			{
-				url: `${process.env.SERVER_URL}:${process.env.PORT}`,
+				url: `${process.env.SERVER_URL}`,
 			},
 		],
 	},
 	apis: ["**/*.ts"],
 };
+export default options;
