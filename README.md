@@ -3,6 +3,7 @@
 Simple backend using NodeJS/Typescript/Express
 
 [Visit deployed site](https://gallery-frontend.onrender.com/)
+[API docs](https://gallery-backend-f32n.onrender.com/api-docs)
 
 ## Requirements
 - node version 18+
